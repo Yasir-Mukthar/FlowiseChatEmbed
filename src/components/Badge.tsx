@@ -43,6 +43,7 @@ export const Badge = (props: Props) => {
         color: props.poweredByTextColor ?? defaultTextColor,
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
+      
     >
       Powered by
       <a
