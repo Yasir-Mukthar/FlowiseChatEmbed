@@ -42,10 +42,8 @@ export const Badge = (props: Props) => {
       style={{
         color: props.poweredByTextColor ?? defaultTextColor,
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
-     
       }}
     >
-
       Powered by
       <a
         ref={liteBadge}
